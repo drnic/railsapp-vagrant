@@ -12,4 +12,6 @@ Vagrant::Config.run do |config|
   config.chef.add_recipe "mysql"
   config.chef.add_recipe "mysql::server"
   config.chef.add_recipe "java"
+
+  config.chef.json.merge!({ :mysql => { :server_root_password => "" } })
 end
