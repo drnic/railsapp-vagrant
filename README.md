@@ -42,6 +42,7 @@ This spins up Hudson CI at http://localhost:3010.
 In another terminal, add the VM as a slave node:
 
     hudson add_node localhost --name "VM" \
+        --label railsapp-vagrant
         --slave-port 2222 \
         --slave-user vagrant \
         --slave-fs /vagrant/tmp/hudson-slave \
@@ -52,7 +53,7 @@ Visit your Hudson CI to see the Slave node registered as "VM" on the left hand s
 
 To add this Rails3 application as a CI job in Hudson:
 
-    hudson create . --template rails3
+    hudson create . --template rails3 --assigned-node railsapp-vagrant
 
 Note: the `--host` and `--port` flags are only required when you want the `hudson` CLI to change/set which Hudson CI master it is communicating with. Well, that's how the CLI works at the time of writing.
 
