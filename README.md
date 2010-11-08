@@ -80,3 +80,4 @@ Visit your Hudson CI and see a new job in the list and it should start building 
 
 <img src="http://img.skitch.com/20101108-jpitj3arquqthqndhs4eagmy89.png">
 
+<img src="http://img.skitch.com/20101108-f4ndidacj2cjxy249nbd82sjg6.png">
