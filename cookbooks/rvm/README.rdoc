@@ -1,0 +1,16 @@
+= DESCRIPTION:
+
+Install and configure rvm with chef.
+
+= REQUIREMENTS:
+
+= ATTRIBUTES:
+
+= USAGE:
+
+Add the rvm::default recipe, then add one of the other recipes to install a specific ruby interpreter.
+
+= SEE ALSO:
+
+[rvm](http://rvm.beginrescueend.com/)
+[Chef](http://www.opscode.com/chef/)

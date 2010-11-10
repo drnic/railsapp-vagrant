@@ -1,0 +1,34 @@
+{
+    "recipes": {
+      "rvm::ree": "Installs Enterprise Ruby under RVM",
+      "rvm::default": "Installs RVM"
+    },
+    "attributes": {
+    },
+    "conflicting": {
+    },
+    "dependencies": {
+    },
+    "providing": {
+    },
+    "maintainer": "Opscode, Inc.",
+    "replacing": {
+    },
+    "platforms": {
+    },
+    "license": "Apache 2.0",
+    "version": "0.0.1",
+    "maintainer_email": "cookbooks@opscode.com",
+    "groupings": {
+    },
+    "long_description": "= DESCRIPTION:\n\n= REQUIREMENTS:\n\n= ATTRIBUTES:\n\n= USAGE:\n\n",
+    "recommendations": {
+    },
+    "name": "rvm",
+    "description": "Sets up RVM",
+    "suggestions": {
+      "ruby": [
+
+      ]
+    }
+  }
