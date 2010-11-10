@@ -1,8 +1,5 @@
 require_recipe "rvm"
 
-require "ap"
-ap node[:vagrant][:config].current_normal
-
 username = node[:vagrant][:config][:ssh][:username]
 
 file "/home/#{username}/.rvmrc" do
